@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+class queue
+{
+    int *arr;
+    int front, rear, size;
+
+public:
+    queue(int s)
+    {
+        front = rear = -1;
+        size = s;
+        arr = new int[s];
+    }
+
+    bool isfull()
+    {
+        
+          }

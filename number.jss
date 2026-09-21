@@ -1,0 +1,14 @@
+function multiply(a,b){
+    return a*b;
+}
+console.log(multiply(3,4));
+let result = multiply(3,4);
+
+let num1 = prompt("Enter first number");
+let num2 = prompt("Enter second number");
+
+num1=Number(num1);
+num2=Number(num2);
+
+let result = multiply(num1 , num2);
+document.write("The result is" + result + "<br>")
